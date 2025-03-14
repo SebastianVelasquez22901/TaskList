@@ -1,0 +1,18 @@
+
+<main class="main">
+  <div class="content">
+    <div class="right-side">
+      <h2 class="title">Listado de Tareas</h2>
+      <div class="task-section">
+        <app-add-task (taskAdded)="onTaskAdded()"></app-add-task>
+        <app-task-list #taskList></app-task-list>
+      </div>
+    </div>
+  </div>
+</main>
+<router-outlet />
+
+
+
+
+<router-outlet />
